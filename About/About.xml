@@ -17,7 +17,7 @@ Safe by design:
 - Doesn't touch existing pawns, quests, or other factions' relations.
 - Does nothing on saves that already have mechanoids.
 
-Please back up your save before using it. Safe to add mid-game. Once the faction is added you can remove the mod; the faction stays (you'll see one harmless red error on the next load about a missing class).
+Please back up your save before using it. Safe to add mid-game. Once the faction is added you can remove the mod; the faction stays. The next load shows a harmless red "Could not find class" error or two; save once and they're gone.
 
 Source, known limitations and bug reports: https://github.com/tombomb/enable-mech-faction</description>
 </ModMetaData>
