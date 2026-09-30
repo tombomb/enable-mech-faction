@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Mech Faction Enabler</name>
+  <author>tombomb</author>
+  <packageId>tombomb.mechfactionenabler</packageId>
+  <modVersion>1.0.0</modVersion>
+  <url>https://github.com/tombomb/enable-mech-faction</url>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Removed the Mechanoid faction when you created your world, and now want to play a mechanitor or Odyssey? This mod adds the Mechanoid faction back to an existing save.
+
+When you load a save that has no Mechanoid faction, you'll be asked whether to add it. That's it — no dev mode needed. (It's also available in dev mode under Debug actions → Mech Faction Enabler.)
+
+Safe by design:
+- Only ever adds the vanilla Mechanoid faction, and only if the save doesn't already have one (including modded factions that replace it).
+- Doesn't touch existing pawns, quests, or other factions' relations.
+- Does nothing on saves that already have mechanoids.
+
+Please back up your save before using it. Safe to add mid-game. Once the faction is added you can remove the mod; the faction stays (you'll see one harmless red error on the next load about a missing class).
+
+Source, known limitations and bug reports: https://github.com/tombomb/enable-mech-faction</description>
+</ModMetaData>

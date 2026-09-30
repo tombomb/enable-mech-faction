@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MFE_PromptTitle>No mechanoid faction</MFE_PromptTitle>
+  <MFE_PromptText>This save has no Mechanoid faction — it was probably removed when the world was created.\n\nBiotech's mechanitor content and Odyssey's mechanoid content need it. Add the Mechanoid faction now?\n\nBack up your save first. The mechanoids will be permanently hostile, like in a normal game.</MFE_PromptText>
+  <MFE_PromptAdd>Add mechanoids</MFE_PromptAdd>
+  <MFE_PromptNever>Don't ask again for this save</MFE_PromptNever>
+
+  <MFE_Added>Added mechanoid faction: {FACTION}.</MFE_Added>
+  <MFE_AddedSaveReload>The Mechanoid faction has been added.\n\nSave your game now, then reload it so everything picks up the new faction cleanly.</MFE_AddedSaveReload>
+
+  <MFE_NotInGame>Load a game first.</MFE_NotInGame>
+  <MFE_NoMechDef>The Mechanoid faction definition couldn't be found. Is another mod removing it?</MFE_NoMechDef>
+  <MFE_AlreadyPresent>This save already has a mechanoid faction ({FACTION}). Nothing to do.</MFE_AlreadyPresent>
+  <MFE_Failed>Couldn't add the Mechanoid faction. Check the log (dev mode) for details. Your save was not changed.</MFE_Failed>
+
+  <MFE_StatusLogged>Faction status written to the log.</MFE_StatusLogged>
+  <MFE_PromptReset>The load prompt will show again next time this save is loaded (if mechanoids are still missing).</MFE_PromptReset>
+</LanguageData>

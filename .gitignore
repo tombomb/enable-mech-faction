@@ -1,0 +1,22 @@
+# Build output
+bin/
+obj/
+dist/
+1.6/Assemblies/*.dll
+1.6/Assemblies/*.pdb
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+
+# Claude Code local state
+.claude/settings.local.json
+.claude/worktrees/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
