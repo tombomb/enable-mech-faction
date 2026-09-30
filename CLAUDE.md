@@ -19,8 +19,11 @@ This repo must use tombomb, same pattern as `../DOW-Alerter`:
 - Local git identity is set: `user.name=tombomb`, `user.email=tombomb318@gmail.com`. Don't commit as TW-Tom.
 - Remote URL includes the username so the gh credential helper picks tombomb:
   `https://tombomb@github.com/tombomb/enable-mech-faction.git`
-- For `gh` commands, don't switch the global account. Set a per-command token instead:
+- Don't switch the global `gh` account. Set tombomb's token in the same command instead. This is needed for
+  **`git push` too**: without it the gh credential helper only answers for the active account (TW-Tom) and
+  the push fails with "could not read Password".
   ```powershell
+  $env:GH_TOKEN = gh auth token --user tombomb; git push
   $env:GH_TOKEN = gh auth token --user tombomb; gh run list -R tombomb/enable-mech-faction
   ```
 - PowerShell 5.1 mangles quotes in `git commit -m` here-strings; write the message to a file and use `git commit -F`.
