@@ -41,12 +41,17 @@ The mod is built to never double anything up:
 
 **Back up your save first.** (Saves live in `%USERPROFILE%\AppData\LocalLow\Ludeon Studios\RimWorld by Ludeon Studios\Saves`.)
 
-1. Download `MechFactionEnabler.zip` from the [latest release](https://github.com/tombomb/enable-mech-faction/releases),
-   or the `MechFactionEnabler` artifact from the latest [Build run](https://github.com/tombomb/enable-mech-faction/actions).
-2. Extract so you have `RimWorld\Mods\MechFactionEnabler\About\About.xml`.
-3. Enable **Mech Faction Enabler** in the Mods menu (anywhere after the DLCs) and restart.
-4. Load your save and click **Add mechanoids**.
-5. **Save, then reload the save.**
+1. Download `MechFactionEnabler.zip` from the [latest release](https://github.com/tombomb/enable-mech-faction/releases/latest)
+   (under **Assets**). No GitHub account needed.
+2. Find your RimWorld folder: in Steam, right-click **RimWorld** → **Manage** → **Browse local files**.
+   Open the `Mods` folder inside it.
+3. Right-click the zip → **Extract All…** → set the destination to that `Mods` folder. Windows adds
+   `\MechFactionEnabler` to the end of the path, so delete that part first.
+   You should end up with `Mods\MechFactionEnabler\About\About.xml`. If you get
+   `Mods\MechFactionEnabler\MechFactionEnabler\...` instead, move the inner folder up one level.
+4. Start RimWorld, enable **Mech Faction Enabler** in the Mods menu (anywhere after the DLCs) and restart when asked.
+5. Load your save and click **Add mechanoids**.
+6. **Save, then reload the save.**
 
 Once the faction exists you can uninstall the mod if you like — the faction is part of your save now.
 The next load shows a harmless red `Could not find class MechFactionEnabler.GameComponent_MechFactionEnabler`
