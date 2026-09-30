@@ -11,6 +11,14 @@ down from a general "re-add any faction" tool.
 
 Personal project (not THUMBWAR work). Public repo: https://github.com/tombomb/enable-mech-faction
 
+## Ground rules
+
+- **Never make assumptions. If anything is unclear, ask Tom before acting or before telling him something is done.**
+- **Tom's wife plays on a different computer.** This PC (Tom's) is only the dev/test machine. `./build.ps1 -Install`
+  installs to *Tom's* Mods folder only. It does not reach her game. Getting the mod to her means a file she can
+  download or copy onto her PC (GitHub Release zip, CI artifact, or the Workshop). Don't assume anything about
+  her PC's paths, Steam library location, DLCs or mod list — ask.
+
 ## Git / GitHub — personal account setup
 
 This machine has two `gh` accounts: **TW-Tom** (work, the active/default one) and **tombomb** (personal).
