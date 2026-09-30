@@ -1,3 +1,5 @@
+![Mech Faction Enabler — add the Mechanoid faction back to an existing save](About/Preview.png)
+
 # Mech Faction Enabler
 
 [![Build](https://github.com/tombomb/enable-mech-faction/actions/workflows/build.yml/badge.svg)](https://github.com/tombomb/enable-mech-faction/actions/workflows/build.yml)
